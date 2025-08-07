@@ -1,0 +1,76 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+
+.navigations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  list-style-type: none;
+
+  background-color: rgba(0, 0, 0, 0.171);
+}
+
+#active {
+  color: var(--link-color);
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--link-color);
+}
+
+.hide {
+  display: none;
+}
+
+.ham-burger-menu button img {
+  width: 2rem;
+}
+
+.nav-btn-container {
+  display: flex;
+  gap: 1rem;
+  justify-self: flex-end;
+
+}
+
+.nav-btn-container button {
+  font-size: 1.1rem;
+  padding: .5rem;
+  border-radius: 1.5rem;
+  transition: all .2s ease-in-out;
+}
+
+#ordernow-btn {
+  background-color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  color: black
+}
+
+#ordernow-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--btn-color);
+  color: white;
+}
+
+#seat-book-btn {
+  border: 1px solid var(--btn-color);
+  color: white;
+}
+
+#seat-book-btn:hover {
+  background-color: var(--btn-color);
+  color: white;
+}

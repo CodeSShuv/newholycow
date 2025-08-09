@@ -2,7 +2,7 @@
   width: 100%;
   height: 50vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.959);
 }
@@ -50,4 +50,42 @@
   width: 1.3rem;
   filter: invert(100%);
   margin-right: .8rem;
+}
+
+.mid {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.follow-credential {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white
+}
+
+.follow-credential .attributes {
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.follow-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.follow-credential img {
+  width: 1.9rem;
+}
+
+.right iframe {
+  border-radius: 1.2rem;
 }

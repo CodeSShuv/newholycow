@@ -44,13 +44,19 @@ const Footer = () => {
 
           <div className='follow-links'>
             <span>
-              <img src="/facebook.png" alt="" />
+              <a href="https://www.facebook.com/">
+                <img src="/facebook.png" alt="" />
+                </a>
+            
             </span>
             <span>
-              <img src="/instagram.png" alt="" />
+              <a href="https://www.instagram.com/">
+              
+              <img src="/instagram.png"  target="_blank"  alt="" />
+              </a>
             </span>
             <span>
-              <img src="/trivago.png" alt="" />
+              <img src="/trivago.png" target="_blank" alt="" />
             </span>
           </div>
         </div>

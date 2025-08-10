@@ -6,15 +6,16 @@ nav {
   width: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.562);
+  padding: .3rem;
 }
 
 .navigations {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 4rem;
   list-style-type: none;
-  background-color: rgba(0, 0, 0, 0.562);
+  /* background-color: rgba(0, 0, 0, 0.562); */
 }
 
 #active {

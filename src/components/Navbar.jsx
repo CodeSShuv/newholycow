@@ -1,4 +1,4 @@
-import {useState} from 'react'
+
 
 import "./css/navbar.css";
 const Navbar = () => {
@@ -27,6 +27,7 @@ const Navbar = () => {
              <img src="./more.png" alt="" />
             </button>
           </div>
+       
     </nav>
   )
 }

@@ -1,6 +1,6 @@
 import "./css/card.css";
 
-const Card = () => {
+const ItemCard = () => {
   return (
     <div id="card">
       <div className="card-overlay-btn">
@@ -16,4 +16,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default ItemCard

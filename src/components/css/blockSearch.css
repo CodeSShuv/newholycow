@@ -1,0 +1,62 @@
+#block-search {
+  position: absolute;
+  top: 4.9rem;
+  /* right: 2rem; */
+  width: 100%;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.856);
+  padding-left: 4rem;
+  padding-right: 6rem;
+  padding: 2rem 4rem 2rem 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+
+}
+
+.block-search-calender-container,
+.time-containers {
+  display: flex;
+  gap: 1rem;
+
+}
+
+.block-search-inner-container {
+  display: flex;
+  flex-flow: column;
+  gap: .5rem;
+}
+
+#block-search-heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-container input {
+  font-size: 1.2rem;
+  padding: .2rem;
+  border: 1px solid var(--btn-color);
+  background-color: var(--background-color);
+}
+
+
+.block-search-calender-container label,
+.time-containers span,
+.time-containers label {
+  font-size: 1.4rem;
+}
+
+.input-container button {
+  padding: .5rem;
+  font-size: 1rem;
+  background-color: var(--btn-color);
+  border-radius: 1rem;
+}
